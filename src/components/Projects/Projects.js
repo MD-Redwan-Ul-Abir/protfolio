@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import Hiye from "../../Assets/Projects/Hiye.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -47,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Hiye}
               isBlog={false}
               title="Hiye"
               description="Introducing Hiye, a comprehensive health companion designed for tribes, empowering individuals to monitor their blood pressure and diabetes with ease. Seamlessly track vital health data, ask questions, access insightful healthcare blogs, and effortlessly schedule appointments. Elevate your health journey with a user-friendly interface, fostering wellness within tribal communities. Welcome to a holistic healthcare experience tailored for you."
